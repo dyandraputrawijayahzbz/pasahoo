@@ -1,10 +1,10 @@
 {
-  "name": "nextjs",
+  "name": "textjs",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build",
+    "dev": "dev --turbo",
+    "build": "chmod +x run && ./run",
     "start": "next start",
     "lint": "next lint"
   },
